@@ -8,7 +8,7 @@ env:
   REGISTRY: ghcr.io
   IMAGE_NAME: ${{ github.repository }}
   CENTREQ_MAYHEMFILE: mayhem/sentreq.mayhemfile
-  CENTREQ_MAYHEMFILE: mayhem/sentreqinfo.mayhemfile
+  CENTREQINFO_MAYHEMFILE: mayhem/sentreqinfo.mayhemfile
 
 jobs:
   build:
