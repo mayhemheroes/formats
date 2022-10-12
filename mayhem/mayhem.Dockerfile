@@ -18,5 +18,5 @@ WORKDIR /formats
 RUN ${HOME}/.cargo/bin/cargo fuzz build --fuzz-dir /formats/x509-cert/fuzz
 
 # Copy the fuzzers to the final image.
-#FROM ubuntu:20.04
-#COPY --from=builder /formats /formats
+FROM ubuntu:20.04
+COPY --from=builder /formats /formats
