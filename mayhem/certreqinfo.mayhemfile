@@ -1,4 +1,3 @@
-image: 4812571/pelikan:latest
 duration: 120
 project: formats
 target: certreqinfo
