@@ -1,0 +1,6 @@
+image: 4812571/pelikan:latest
+duration: 120
+project: formats
+target: certreqinfo
+cmds:
+  - cmd: /formats/x509-cert/fuzz/target/x86_64-unknown-linux-gnu/release/certreqinfo
