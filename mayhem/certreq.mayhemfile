@@ -1,0 +1,5 @@
+duration: 120
+project: formats
+target: certreq
+cmds:
+  - cmd: /formats/x509-cert/fuzz/target/x86_64-unknown-linux-gnu/release/certreq
